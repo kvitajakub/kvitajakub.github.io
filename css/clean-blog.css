@@ -1,6 +1,6 @@
 body {
   font-family: 'Lora', 'Times New Roman', serif;
-  font-size: 20px;
+  font-size: 15px;
   color: #404040;
 }
 p {
@@ -147,7 +147,7 @@ hr.small {
   .intro-header .site-heading,
   .intro-header .post-heading,
   .intro-header .page-heading {
-    padding: 150px 0;
+    padding: 60px 0;    /* tady toto meni sirku zahlavi*/
   }
 }
 .intro-header .site-heading,
@@ -374,6 +374,15 @@ form .row:first-child .floating-label-form-group {
   background-color: #404040;
   cursor: not-allowed;
 }
+.pager .next > a,
+.pager .next > span {
+  float: left;
+}
+.pager .previous > a,
+.pager .previous > span {
+  float: right;
+}
+
 ::-moz-selection {
   color: white;
   text-shadow: none;

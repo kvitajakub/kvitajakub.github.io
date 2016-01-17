@@ -1,6 +1,7 @@
 ---
 layout: page
-description: "A Clean Blog Theme by Start Bootstrap"
+description: "Interesting stuff. Read it."
+header-img: "img/about-bg.jpg"
 ---
 
 {% for post in paginator.posts %}
@@ -23,12 +24,12 @@ description: "A Clean Blog Theme by Start Bootstrap"
 {% if paginator.total_pages > 1 %}
 <ul class="pager">
     {% if paginator.previous_page %}
-    <li class="previous">
+    <li class="next">
         <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
     </li>
     {% endif %}
     {% if paginator.next_page %}
-    <li class="next">
+    <li class="previous">
         <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
     </li>
     {% endif %}
