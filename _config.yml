@@ -1,10 +1,10 @@
 # Site settings
 title: Jakub Kvita
-header-img: img/home-bg.jpg
+header-img: img/peaches.jpg
 email: kvitajakub@gmail.com
 # description: "Write your site description here. It will be used as your sites meta description as well!"
 baseurl: ""
-# twitter_username: kvitajakub
+linkedin_username: kvitajakub
 github_username:  kvitajakub
 facebook_username:  kvitajakub
 
