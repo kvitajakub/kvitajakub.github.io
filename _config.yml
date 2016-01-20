@@ -7,11 +7,12 @@ baseurl: ""
 linkedin_username: kvitajakub
 github_username:  kvitajakub
 facebook_username:  kvitajakub
+email: kvitajakub@gmail.com
 
 # Build settings
 markdown: kramdown
 highlighter: pygments
 permalink: pretty
-paginate: 5
+paginate: 4
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 # gems: [jekyll-paginate]
