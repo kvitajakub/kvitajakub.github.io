@@ -19,7 +19,7 @@ Reasons why I wanted to start this blog:
 
 ## What am I going to write about?
 
-- Technical articles about stuff I studied.
-- Interesting details in my life, which can be useful for somebody else. For example, article about internship at CERN would be nice, I suppose.
-- I am *NOT* going to write about my personal life. At least not about my beliefs and what I was doing.
-- Although write something about social interactions could be good, maybe compilation of sources I am using. I don't know, yet.
+Technical articles about stuff I studied.
+Interesting details in my life, which can be useful for somebody else. For example, article about internship at CERN would be nice, I suppose.
+I am *NOT* going to write about my personal life. At least not about my beliefs and what I was doing.
+Although write something about social interactions could be good, maybe compilation of sources I am using. I don't know, yet.
