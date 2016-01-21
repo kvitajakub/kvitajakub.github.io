@@ -1,13 +1,13 @@
 body {
   font-family: 'Lora', 'Times New Roman', serif;
-  font-size: 15px;
+  font-size: 17px;
   color: #404040;
 }
 p {
   line-height: 1.5;
   margin: 30px 0;
 }
-p a {
+a {
   text-decoration: underline;
 }
 h1,
@@ -248,6 +248,16 @@ hr.small {
   font-size: 36px;
   margin-top: 60px;
   font-weight: 700;
+}
+article h1 {
+  font-size: 36px;
+  margin-top: 60px;
+  font-weight: 700;
+}
+article h2 {
+  font-size: 30px;
+  margin-top: 40px;
+  font-weight: 500;
 }
 .caption {
   text-align: center;
