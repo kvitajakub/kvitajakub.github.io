@@ -256,12 +256,17 @@ hr.small {
 article h1 {
   font-size: 36px;
   margin-top: 60px;
-  font-weight: 700;
+  font-weight: 600;
 }
 article h2 {
   font-size: 30px;
   margin-top: 40px;
-  font-weight: 500;
+  font-weight: 600;
+}
+article h3 {
+  font-size: 24px;
+  margin-top: 40px;
+  font-weight: 600;
 }
 .caption {
   text-align: center;
