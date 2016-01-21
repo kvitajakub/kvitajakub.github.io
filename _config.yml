@@ -13,6 +13,6 @@ email: kvitajakub@gmail.com
 markdown: kramdown
 highlighter: pygments
 permalink: pretty
-paginate: 8
+paginate: 6
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md", "articles.html"]
 # gems: [jekyll-paginate]
