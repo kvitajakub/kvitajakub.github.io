@@ -9,7 +9,7 @@ p {
 }
 li {
   line-height: 1.5;
-  margin: 5px 0;
+  /*margin: 5px 0;*/
 }
 article a {
   text-decoration: underline;
