@@ -8,18 +8,24 @@ subtitle:   "Why I started and what is going to happen here."
 ---
 <!-- header-img: "img/post-bg-06.jpg" -->
 
-Reasons why I wanted to start this blog:
+### Hello and welcome,
+This will be a short explanation of what is happening on this website and my long-term plan for writing articles.
 
-- I was inspired by this [article](http://blog.uncollege.org/5-reasons-you-should-blog-about-your-learning), which sounds reasonable and useful for me.
-- In last several months I saw several technical articles, which described experiments and thoughts of the experts and people in the field were actually inspired by them. Specific example is Andrej Karpathy's [The Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/).
-- I am already writing my master's thesis which is similar to writing articles. I can connect those two, even though I am most likely not going to (I am not going to pretend.)
-- I realized I'm not very good at fomulating thoughts and explaining things, as I jump around and I am not empathizing enough with the reader, who don't know everything I do. This is more noticeable during presentations, I could work on that.
-- It would be nice to practice English writing, as I don't have enough opportunities in daily life to write coherent text longer than emails and commit messages.
+Reasons why I wanted to start a personal site.
+---------------------------------------------
 
+- I wanted to have a hub for my online presence, which will be a starting point for showing others what I do.
+- I saw several technical articles, written by people (researchers) in the field. They weren't published on a conference or something like that, but that doesn't matter for people, only thing that matters are results. Specific example is Andrej Karpathy's [The Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/).
+- I came across an [article](http://blog.uncollege.org/5-reasons-you-should-blog-about-your-learning), which promoted writing posts about your learning to keep yourself disciplined, achieve deeper understanding of studied material and connect with people interested in the same topic. As I am already working on my master's thesis, writing blog could be an interesting way to create better thesis.
+- I realized I'm not very good at fomulating thoughts and explaining things, as I sometimes skip ideas, which are obvious to me, but not to the reader, who don't know everything I do. Writing will also improve the way I structure my presentations, as they could be easier to understand.
+- It would be nice to practice English writing, as I don't have enough opportunities in daily life to write coherent text. It was very distinct in the first draft of my thesis, which had a lot of shortcomings.
 
-## What am I going to write about?
+What am I going to write about?
+-------------------------------
 
 - Technical articles about stuff I studied.
-- Interesting details in my life, which can be useful for somebody else. For example, article about internship at CERN would be nice, I suppose.
-- I am *NOT* going to write about my personal life. At least not about my beliefs and what I was doing.
-- Although write something about social interactions could be good, maybe compilation of sources I am using. I don't know, yet.
+- Interesting details in my life, which can be useful for somebody else. For example, article about internship at CERN would be nice, because few people already asked me about that.
+- I am *NOT* going to write about my personal life. At least not about my beliefs and boring stuff.
+- I could write something about social interaction, maybe compilation of sources I am using. I need to think about that.
+
+Currently I invest a lot of time to deep learning and my thesis. Next topic on my list is statistics and I want to do some Coursera courses or similar, which would be a nice topic. I can also write about virtualization and more about deep learning, but that depends on what I am going to work on, after my graduation.
