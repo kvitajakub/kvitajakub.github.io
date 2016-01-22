@@ -28,4 +28,4 @@ What am I going to write about?
 - I am *NOT* going to write about my personal life. At least not about my beliefs and boring stuff.
 - I could write something about social interaction, maybe compilation of sources I am using. I need to think about that.
 
-Currently I invest a lot of time to deep learning and my thesis. Next topic on my list is statistics and I want to do some Coursera courses or similar, which would be a nice topic. I can also write about virtualization and more about deep learning, but that depends on what I am going to work on, after my graduation.
+Currently I invest a lot of time to deep learning and my thesis. Next topic on my list is statistics and I want to do some Coursera courses or similar, which would be a nice topic. I can also write about virtualization and more about deep learning, but that depends on what I am going to work on after my graduation.
