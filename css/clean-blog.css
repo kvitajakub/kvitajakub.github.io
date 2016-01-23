@@ -44,7 +44,7 @@ h6 {
   font-weight: 800;
 }
 a {
-  color: #404040;
+  color: #303030;
 }
 a:hover,
 a:focus {
@@ -129,14 +129,14 @@ hr.small {
     transition: transform 0.3s;
   }
   .navbar-custom.is-fixed .navbar-brand {
-    color: #404040;
+    color: #303030;
   }
   .navbar-custom.is-fixed .navbar-brand:hover,
   .navbar-custom.is-fixed .navbar-brand:focus {
     color: #0085a1;
   }
   .navbar-custom.is-fixed .nav li a {
-    color: #404040;
+    color: #303030;
   }
   .navbar-custom.is-fixed .nav li a:hover,
   .navbar-custom.is-fixed .nav li a:focus {
@@ -230,7 +230,7 @@ hr.small {
   }
 }
 .post-preview > a {
-  color: #404040;
+  color: #303030;
 }
 .post-preview > a:hover,
 .post-preview > a:focus {
@@ -256,7 +256,7 @@ hr.small {
 }
 .post-preview > .post-meta > a {
   text-decoration: none;
-  color: #404040;
+  color: #303030;
 }
 .post-preview > .post-meta > a:hover,
 .post-preview > .post-meta > a:focus {
@@ -411,7 +411,7 @@ form .row:first-child .floating-label-form-group {
 .pager .disabled > a:focus,
 .pager .disabled > span {
   color: #808080;
-  background-color: #404040;
+  background-color: #303030;
   cursor: not-allowed;
 }
 .pager .next > a,
