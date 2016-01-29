@@ -10,7 +10,7 @@ facebook_username:  kvitajakub
 email: kvitajakub@gmail.com
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
 highlighter: pygments
 permalink: pretty
 paginate: 6

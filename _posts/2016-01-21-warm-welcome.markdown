@@ -6,7 +6,6 @@ comments:   true
 title:      "Warm Welcome"
 subtitle:   "Why I started and what is going to happen here."
 ---
-<!-- header-img: "img/post-bg-06.jpg" -->
 
 ### Hello and welcome,
 This will be a short explanation of what is happening on this website and my long-term plan for writing articles.
