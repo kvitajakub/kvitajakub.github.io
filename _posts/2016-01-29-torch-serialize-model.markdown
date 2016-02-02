@@ -9,13 +9,13 @@ subtitle:   "How to make saved Torch models smaller by removing unwanted fields.
 
 Basic Torch provides [methods](https://github.com/torch/torch7/blob/master/doc/serialization.md) for writing model to a file and reloading it together with serialization/deserialization methods.
 
-```lua
+~~~lua
 torch.save(filename, object [, format, referenced])
 torch.load(filename [, format, referenced])
 
 torch.serialize(object)
 torch.deserialize(str)
-```
+~~~
 
 These methods are as simple as it gets and can process any Torch object, which is excellent.
 However [nn](https://github.com/torch/nn) models contains several fields, which are used during training, but are not necessary while saving. This causes the files to be unnecessary large. What can we do about that?
@@ -30,9 +30,9 @@ Modules from nn package are relatively simple and can be processed manually. Usu
 
 Unwanted fields of the module can be reduced by creating Tensor of same type with no dimensions:
 
-```lua
+~~~lua
 data = torch.Tensor():typeAs(data)
-```
+~~~
 
 If your models are small, you can do it by hand for every module, but this is usually not an issue for models that small.
 
@@ -44,9 +44,9 @@ Reducing recurrent modules from [rnn](https://github.com/Element-Research/rnn) c
 
 First, model has to be decorated and type of serialization (`light`, `medium`, `heavy`) need to be specified. These options align nicely with three types of fields from before. `heavy`, which is default option in Torch, saves everything, `medium` is recommended to use during training and `light` can be used for models in production, as it keeps only weights and biases.
 
-```lua
+~~~lua
 dmodule = nn.Serial(module, [tensortype])
 dmodule:lightSerial() __OR__ dmodule:mediumSerial() __OR__ dmodule:heavySerial()
-```
+~~~
 
 Regular Torch `save` and `load` methods can be used to process the decorated model. No tweaks are required in this part.
