@@ -4,7 +4,7 @@ date:       2016-01-29 19:00:00
 author:     "Jakub Kvita"
 comments:   true
 title:      "Efficient serialization of Torch models"
-subtitle:   "How to make saved Torch models smaller by removing unwanted fields."
+subtitle:   "How to save smaller Torch models by removing unwanted fields."
 ---
 
 Basic Torch provides [methods](https://github.com/torch/torch7/blob/master/doc/serialization.md) for writing model to a file and reloading it together with serialization/deserialization methods.
