@@ -4,14 +4,14 @@ date:       2016-02-17 22:00:00
 author:     "Jakub Kvita"
 comments:   true
 title:      "Encoder-Decoder Architecture"
-subtitle:   "How to initialize hidden state of the LSTM and GRU from the rnn package"
+subtitle:   "How to initialize the hidden state of the LSTM and GRU from the rnn package"
 ---
 
 Neural networks with encoder-decoder architecture became very popular during 2015, mainly because of the [Sequence to Sequence Learning with Neural Networks](http://arxiv.org/abs/1409.3215) paper. The authors used multilayered LSTM to map input sequence to a vector with fixed dimensionality. This vector was then unrolled to the output sequence by second LSTM network. Architecture was applied to machine translation task.
 
-To refresh the knowledge about LSTMs and its variats see very good article [Understanding LSTM Networks](http://colah.github.io/posts/2015-08-Understanding-LSTMs/). LSTM has two hidden states, which can be initialized - the cell state `C[t-1]` and the output `h[t-1]`. GRU has just one (`h[t-1]`), but it works in the similar fashion.
+To refresh the knowledge about LSTMs and its variants go and read a very good article [Understanding LSTM Networks](http://colah.github.io/posts/2015-08-Understanding-LSTMs/). To sum it up, LSTM has two hidden states, which can be initialized - the cell state `C[t-1]` and the output `h[t-1]`. GRU has just one (`h[t-1]`), but it works in the similar fashion.
 
-Due to [many requests](https://github.com/Element-Research/rnn/issues/16), is is possible to update the hidden states directly in the layers of the [Element-Research/rnn](https://github.com/Element-Research/rnn) package. The `nn.LSTM` uses variable `userPrevCell` to initialize cell state and `userPrevOutput` to insert previous output. `nn.GRU` has only the `userPrevOutput` variable.
+Due to the [many requests](https://github.com/Element-Research/rnn/issues/16), is is possible to update the hidden states directly in the layers of the [Element-Research/rnn](https://github.com/Element-Research/rnn) package. The `nn.LSTM` uses variable `userPrevCell` to initialize cell state and `userPrevOutput` to insert previous output. `nn.GRU` has only the `userPrevOutput` variable.
 
 If one of the mentioned variables is defined, after the forward+backward cycle, respective gradient variable (`userGradPrevCell` or `userGradPrevOutput`) will contain computed gradient.
 
