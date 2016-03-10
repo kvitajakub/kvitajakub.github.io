@@ -1,6 +1,6 @@
 ---
 layout:     post
-date:       2016-03-09 18:00:00
+date:       2016-03-08 18:00:00
 author:     "Jakub Kvita"
 comments:   true
 title:      "LuaJIT memory limitations"
