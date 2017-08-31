@@ -2,24 +2,34 @@
 layout: page
 title: "About Me"
 first-title: "Jakub Kvita"
-description: "Dedicated to make a difference."
+description: "There is no cloud! It's just someone else's computer."
 redefined-size: "col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 text-justify"
 ---
 
-<img class="profil-picture" src="{{ site.baseurl }}/img/profil.jpg">
+<img class="profile-picture" src="{{ site.baseurl }}/img/profil.jpg">
 <h4>Hi, my name is Jakub!</h4>
-<p>I'm 24-year-old student from <a href="https://www.google.com/maps/place/Brno,+CZ">Brno, CZ</a>. I study Computer Science at Brno University of Technology. Lately I am interested in virtualized environments, statistics and machine learning. Last one I use in my <a href="https://github.com/kvitajakub/MasterThesis/raw/2f29161d617f0d4b7feec8f9a2a23b557b3583f1/diplomka.pdf">master's thesis</a>.</p>
 
-<p>Since the start of my studies, I learnt a lot about different areas, even though if I had a choice, I wouldn't pick some of them. Also I travelled around Europe, which was the best opportunity any university can offer.</p>
+<p>I'm Czech software engineer focused on cloud infrastructure, container orchestration and site reliability.
+Currently somewhere between New York, Prague and Chiang Mai.</p>
 
-<p>I was an intern in Red Hat for a year, in two teams, 6 months each. Mostly we were doing QE work on deployment tools and subscriptions, and a lot of virtualization. I was also selected for the internship at CERN - European Organization for Nuclear Research - as they have quite big IT department, mostly focused on big data processing and virtualization. I was working with their OpenStack Cinder backends.</p>
+<p>I like to work on clean infrastructure, make it easy for other people.
+Automation is definitely great but it also deservers respect.
+I believe that "too much automation" can be a thing, but that shouldn't stop us from focusing on it.</p>
 
-<p>I like to work on unique products, which will impact a lot of people and improve their lives. I love to collaborate with people who firmly believe in what they do and I want to help them, support them and work on the idea together. I find joy in helping great ideas to emerge, in shaping them and it doesn't matter, if I created them, or somebody else. I just want to be part of it and do my best.</p>
+<p>During my studies I focused on many different areas of IT ranging from
+compilers and computer graphics to machine learning and distributed computing.
+Therefore the quite broad range of article topics. I'm not going to sell myself
+here too much, if you're interested in details check out my Linkedin or CV below.</p>
 
-<p>I like Murakami's books, drinking tea and strategic, math heavy hobbies like investing and board games. I also started to do fencing.</p>
-
-<p>You want to know more about me?<br>
-Download the CV or resume below or click on the social media links at the bottom of the page.</p>
+{% if site.linkedin_username %}
+<p><a href="https://www.linkedin.com/in/{{ site.linkedin_username }}">
+  <span class="fa-stack fa-lg">
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+  </span>
+  Linkedin</a>
+</p>
+{% endif %}
 
 <p><a href="https://github.com/kvitajakub/resume-cv/blob/master/cv/kvitajakub-cv.pdf">
   <span class="fa-stack fa-lg">

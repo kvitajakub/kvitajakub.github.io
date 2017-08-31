@@ -1,14 +1,14 @@
 
 @media screen  and (orientation: landscape){
-    .profil-picture{
-        width:40%;
+    .profile-picture{
+        width:45%;
         float:right;
         padding-bottom:4px;
         padding-left: 15pt
     }
 }
 @media screen and (orientation: portrait){
-    .profil-picture{
+    .profile-picture{
         width:80%;
         float:none;
         padding-bottom:4px;
@@ -16,7 +16,6 @@
         margin-right: auto
     }
 }
-
 
 body {
   font-family: 'Lora', 'Times New Roman', serif;
