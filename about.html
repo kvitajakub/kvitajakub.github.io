@@ -2,47 +2,57 @@
 layout: page
 title: "About Me"
 first-title: "Jakub Kvita"
-description: "There is no cloud! It's just someone else's computer."
+description: "There is no cloud. It's just someone else's computer."
 redefined-size: "col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 text-justify"
 ---
+<article>
+  <img class="profile-picture" src="{{ site.baseurl }}/img/profil.jpg">
+  <h4>Hi, my name is Jakub!</h4>
 
-<img class="profile-picture" src="{{ site.baseurl }}/img/profil.jpg">
-<h4>Hi, my name is Jakub!</h4>
+  <p>I'm Czech software engineer focused on cloud infrastructure, container
+  orchestration and site reliability, living somewhere between New York,
+  Prague and Chiang Mai.</p>
 
-<p>I'm Czech software engineer focused on cloud infrastructure, container orchestration and site reliability.
-Currently somewhere between New York, Prague and Chiang Mai.</p>
+  <p>Currently working at <a href="http://www.vestorly.com/">Vestorly</a> and
+  sending their best email newsletter with Ruby/Rails, MongoDB, Kubernetes and cloud
+  microservices.</p>
 
-<p>I like to work on clean infrastructure, make it easy for other people.
-Automation is definitely great but it also deservers respect.
-I believe that "too much automation" can be a thing, but that shouldn't stop us from focusing on it.</p>
+  <p>I like to work on clean infrastructure, making it easy for other people.
+  Designing and working on high available systems that are just running and
+  people won't even notice failures is very enjoyable for me. I love automation
+  because you can almost feel the power under your fingers and things just click.
+  But I also respect it as things can go south even faster when you
+  mess up, similarly to fire. But that is not a reason to stop.</p>
 
-<p>During my studies I focused on many different areas of IT ranging from
-compilers and computer graphics to machine learning and distributed computing.
-Therefore the quite broad range of article topics. I'm not going to sell myself
-here too much, if you're interested in details check out my Linkedin or CV below.</p>
+  <p>During my studies I focused on many different areas of IT ranging from
+  compilers and computer graphics to machine learning and distributed computing.
+  Therefore the quite broad range of article topics. I'm not going to sell myself
+  here too much, if you're interested in details check out my Linkedin, CV or
+  my other contacts below.</p>
 
-{% if site.linkedin_username %}
-<p><a href="https://www.linkedin.com/in/{{ site.linkedin_username }}">
-  <span class="fa-stack fa-lg">
-      <i class="fa fa-circle fa-stack-2x"></i>
-      <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-  </span>
-  Linkedin</a>
-</p>
-{% endif %}
+  {% if site.linkedin_username %}
+  <p><a href="https://www.linkedin.com/in/{{ site.linkedin_username }}">
+    <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+    </span>
+    Linkedin</a>
+  </p>
+  {% endif %}
 
-<p><a href="https://github.com/kvitajakub/resume-cv/blob/master/cv/kvitajakub-cv.pdf">
-  <span class="fa-stack fa-lg">
+  <p><a href="https://github.com/kvitajakub/resume-cv/blob/master/cv/kvitajakub-cv.pdf">
+    <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-file-pdf-o fa-stack-1x fa-inverse"></i>
+    </span>
+    CV</a>
+  </p>
+
+  <p><a href="https://github.com/kvitajakub/resume-cv/blob/master/resume/kvitajakub-resume.pdf">
+    <span class="fa-stack fa-lg">
       <i class="fa fa-circle fa-stack-2x"></i>
       <i class="fa fa-file-pdf-o fa-stack-1x fa-inverse"></i>
-  </span>
-  CV</a>
-</p>
-
-<p><a href="https://github.com/kvitajakub/resume-cv/blob/master/resume/kvitajakub-resume.pdf">
-  <span class="fa-stack fa-lg">
-    <i class="fa fa-circle fa-stack-2x"></i>
-    <i class="fa fa-file-pdf-o fa-stack-1x fa-inverse"></i>
-  </span>
-  Resume</a>
-</p>
+    </span>
+    Resume</a>
+  </p>
+</article>
